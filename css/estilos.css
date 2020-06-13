@@ -18,5 +18,5 @@
 .lista li::before { /* Añadimos contenido antes de cada elemento de la lista */
 	content: "\2022"; /* Insertamos el marcador */
 	padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
-	color: #ff97a4; /* Coloreamos la viñeta */
+	color: #fff; /* Coloreamos la viñeta */
 }
