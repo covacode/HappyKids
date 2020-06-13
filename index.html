@@ -38,6 +38,7 @@
 
     <!-- Main CSS-->
     <link href="css/main.min.css" rel="stylesheet" media="all">
+    <link href="css/estilos.css" rel="stylesheet" media="all">
 
     <!--Favicons-->
     <link rel="shortcut icon" href="favicon.png">
@@ -50,7 +51,7 @@
     <div class="page-wrapper">
         <!-- HEADER-->
         <header id="header">
-            <section class="top-contact-2 p-md-t-15">
+            <section id="head_contact" class="top-contact-2 p-md-t-15">
                 <div class="wrap wrap--w1790">
                     <div class="container-fluid">
                         <div class="top-contact-row">
@@ -70,7 +71,7 @@
                             <div class="top-contact-col top-contact-col--alig-center d-none d-lg-flex">
                                 <div class="logo">
                                     <a href="#">
-                                        <img src="images/icon/logo.png" alt="Jobby"/>
+                                        <img src="images/icon/logo.jpg" alt="HappyKids" style="height: 120px;" />
                                     </a>
                                 </div>
                             </div>
@@ -90,10 +91,7 @@
                                         <a class="ic-insta" href="#">
                                             <i class="fab fa-instagram"></i>
                                         </a>
-                                    </li>
-                                    <!--<li class="list-inline-item seprator">
-                                        <span></span>
-                                    </li>-->
+                                    </li>                                
                                     <li class="list-inline-item">
                                         <a class="ic-fb" href="#">
                                             <i class="fas fa-envelope"></i>
@@ -122,27 +120,27 @@
                                         </a>
                                     </li>
                                     <li class="header-navbar__item has-sub">
-                                        <a href="#">
+                                        <a href="#" id="Curriculum">
                                             <span class="bg-link">Curriculum</span>
                                         </a>                                      
                                     </li>
                                     <li class="header-navbar__item has-sub">
-                                        <a href="#">
+                                        <a href="#" id="Programs">
                                             <span class="bg-link">Programs</span>
                                         </a>                                        
                                     </li>
                                     <li class="header-navbar__item has-sub">
-                                        <a href="#">
+                                        <a href="#" id="Staff">
                                             <span class="bg-link">Staff</span>
                                         </a>                                        
                                     </li>
                                     <li class="header-navbar__item has-sub">
-                                        <a href="#">
+                                        <a href="#" id="Gallery">
                                             <span class="bg-link">Gallery</span>
                                         </a>                                        
                                     </li>
                                     <li class="header-navbar__item has-sub">
-                                        <a href="#">
+                                        <a href="#" id="Contact">
                                             <span class="bg-link">Contact</span>
                                         </a>                                        
                                     </li>
@@ -153,11 +151,11 @@
                 </div>
             </div>
             
-            <div class="header-mobile js-header-mobile d-block d-lg-none">
+            <div id="head_mobile" class="header-mobile js-header-mobile d-block d-lg-none">
                 <div class="header-mobile__bar">
                     <div class="container-fluid clearfix">
                         <a class="logo" href="index1.html">
-                            <img src="images/icon/logo.png" alt="Jooby"/>
+                            <img src="images/icon/logo.jpg" alt="HappyKids" style="height:75px;" />
                         </a>
                         <button class="hamburger hamburger--slider float-right" type="button">
                             <span class="hamburger-box">
@@ -169,25 +167,25 @@
                 <nav class="navbar-mobile">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li>
-                            <a href="#">Home</a>                            
+                            <a href="#" id="Home_Phone">Home</a>                            
                         </li>
                         <li>
-                            <a href="#">About us</a>                            
+                            <a href="#" id="About_Phone">About us</a>                            
                         </li>
                         <li>
-                            <a href="#">Curriculum</a>                            
+                            <a href="#" id="Curriculum_Phone">Curriculum</a>                       
                         </li>
                         <li>
-                            <a href="#">Programs</a>                            
+                            <a href="#" id="Programs_Phone">Programs</a>
                         </li>
                         <li>
-                            <a href="#">Staff</a>                            
+                            <a href="#" id="Staff_Phone">Staff</a>                            
                         </li>
                         <li>
-                            <a href="#">Gallery</a>                            
+                            <a href="#" id="Gallery_Phone">Gallery</a>                      
                         </li>  
                         <li>
-                            <a href="#">Contact</a>                            
+                            <a href="#" id="Contact_Phone">Contact</a>                            
                         </li>                       
                     </ul>
                 </nav>
@@ -197,7 +195,6 @@
 
         <!-- MAIN-->
         <main id="main">
-
 
             <!-- SLIDER-->
             <div class="rev_slider_wrapper">
@@ -218,33 +215,20 @@
                                 <img src="images/slide-item-07.png" alt="Slide Img 3" />
                             </div>
                         </li>
-                        <li class="rev-item rev-item-4" data-transition="scaledownfromright">
-                            <img class="rev-slidebg" src="images/slide-04.jpg" alt="Master Slider 01" />
-                            <div class="tp-caption tp-resizeme rev-text-2" data-frames="[{&quot;delay&quot;:0,&quot;split&quot;:&quot;chars&quot;,&quot;splitdelay&quot;:0.05,&quot;speed&quot;:2000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
-                            data-x="[left]" data-y="[center]" data-hoffset="0" data-voffset="[-70, -70, -70, -70, -70]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]" data-width="[605, 605, 470, 510, 576]" data-height="[&quot;auto&quot;]"
-                            data-whitespace="[normal, normal, normal, normal, normal]" data-color="#666" data-fontweight="400" data-fontsize="[65, 65, 50, 50, 55]" data-textalign="center" data-lineheight="85">Happy Kids!!</div>
-                            <div class="tp-caption tp-resizeme rev-text-4" data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
-                            data-x="[left]" data-y="[center]" data-hoffset="0" data-voffset="[40, 40, 40, 40, 40]" data-paddingleft="[0, 0, 0, 0, 15]" data-paddingright="[0, 0, 0, 0, 15]" data-width="[605, 605, 470, 510, 576]" data-height="[&quot;auto&quot;]"
-                            data-whitespace="[normal, normal, normal, normal, normal]" data-color="#666" data-fontweight="400" data-fontsize="[15, 15, 15, 25, 25]" data-lineheight="[27, 27, 20, 28, 28]" data-textalign="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                            <a class="tp-caption tp-resizeme" href="#" target="_self"
-                            data-frames="[{&quot;delay&quot;:1400,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:800,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
-                            data-x="[left,left,left,center,center]" data-y="[center,center,center,center,center]" data-hoffset="[220, 220, 150, 10, 10]" data-voffset="[162, 162, 150, 185, 185]" data-width="['auto']" data-height="[&quot;auto&quot;]" data-responsive_offset="on"
-                            data-responsive="off" data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]">
-                                <!--<span class="rev-btn-1">Learn more
-                                    <span class="arrow" data-paddingleft="10">
-                                        <i class="zmdi zmdi-chevron-right"></i>
-                                        <i class="zmdi zmdi-chevron-right"></i>
-                                    </span>
-                                </span>-->
-                            </a>
+                        <li class="rev-item rev-item-3" data-transition="fade">
+                            <img class="rev-slidebg" src="images/slide-04.jpg" alt="Master Slider 01" />                                                        
+                            <div class="tp-caption tp-resizeme" data-frames="[{&quot;delay&quot;:800,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:top;rY:180deg;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]"
+                            data-x="[left,left,left,left,center]" data-y="[middle]" data-hoffset="[0, 0, -70, -80, 0]" data-voffset="[0, 0, 110, 160, 0]" data-width="['auto']" data-height="[&quot;auto&quot;]">
+                                <img src="images/slide-item-07.png" alt="Slide Img 3" />
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
             <!-- END SLIDER-->
 
-            <!-- WELCOME-->
-            <section class="section p-t-150 p-md-t-50 p-b-110 p-md-b-50" id="about">
+            <!-- ABOUT US -->
+            <section class="section p-t-150 p-md-t-50 p-b-110 p-md-b-50" id="about">                
                 <div class="container">
                     <div class="welcome-wrap">
                         <div class="row no-gutters justify-content-end">
@@ -270,12 +254,12 @@
                         </div>
                         <div class="img-box img-box-1">
                             <div class="img-box-inner">
-                                <img src="images/welcome-05.jpg" alt="Welcome 1">
+                                <img src="images/daycare/image-6.jpg" alt="Welcome 1">
                             </div>
                         </div>
                         <div class="img-box img-box-2">
                             <div class="img-box-inner">
-                                <img src="images/welcome-07.jpg" alt="Welcome 2">
+                                <img src="images/daycare/image-4.jpg" alt="Welcome 2">
                             </div>
                         </div>
                         <div class="row">
@@ -292,469 +276,212 @@
             </section>
             <!-- END WELCOME-->
 
-            <!-- ROOMS AND CLASS-->
-            <!--<section class="section bg-pattern bg-pattern-1 p-t-125 p-md-t-50 p-b-80 p-md-b-50">-->
-            <section class="section bg-info p-t-125 p-md-t-50 p-b-80 p-md-b-50">
-                <div class="bg-cloud-2">
-                    <img src="images/icon/bg-cloud-02.png" alt="Cloud 1">
-                </div>
-                <div class="bg-cloud-3">
-                    <img src="images/icon/bg-cloud-03.png" alt="Cloud 2">
-                </div>
+			<!--<section id="curriculum" class="section p-t-95 p-b-100" style="background-image: url('images/bg-class-01.jpg'); background-repeat: round;">-->
+                <section id="curriculum" class="section p-t-95 p-b-100" style="background-color: #6bdda1b8;">
+                    <div class="bg-cloud-2">
+                        <img src="images/icon/bg-cloud-02.png" alt="Cloud 1">
+                    </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-heading section-heading-2">
-                                <h2 class="section-heading__title">our Rooms & Classes</h2>
-                                <div class="section-heading__line">
-                                    <img src="images/icon/line-white.png" alt="Line 2">
-                                </div>
+                        <div class="col-md-6">
+                            <div class="section-heading__line">
+                                <img src="images/daycare/image-1.jpg" alt="Line" style="border: solid 20px #fff;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="media media-our-class-3">
-                                <div class="media__img">
-                                    <a href="classes-single.html">
-                                        <img src="images/our-class-07.jpg" alt="Color Matching Class" />
-                                    </a>
-                                    <span class="media-our-class__price">
-                                        <span class="inner">$22</span>
-                                    </span>
-                                </div>
-                                <div class="media__body">
-                                    <h3 class="media__title">
-                                        <a href="classes-single.html">Color Matching Class</a>
-                                    </h3>
-                                    <span class="date-time m-r-15">08:00 am - 05:00 pm</span>
-                                    <span class="date-time">April 29, 2020</span>
-                                    <div class="media-our-class__info">
-                                        <div class="row no-gutters">
-                                            <div class="col-6">
-                                                <div class="item has-seprator">
-                                                    <span class="name">age</span>
-                                                    <span class="value">1 - 2 years</span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="item">
-                                                    <span class="name">size</span>
-                                                    <span class="value">12 seats</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="bg-cloud-3">
+                            <img src="images/icon/bg-cloud-03.png" alt="Cloud 2">
                         </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="media media-our-class-3">
-                                <div class="media__img">
-                                    <a href="classes-single.html">
-                                        <img src="images/our-class-08.jpg" alt="Letter Math Class" />
-                                    </a>
-                                    <span class="media-our-class__price">
-                                        <span class="inner">$25</span>
-                                    </span>
-                                </div>
-                                <div class="media__body">
-                                    <h3 class="media__title">
-                                        <a href="classes-single.html">Letter Math Class</a>
-                                    </h3>
-                                    <span class="date-time m-r-15">08:00 am - 05:00 pm</span>
-                                    <span class="date-time">April 29, 2020</span>
-                                    <div class="media-our-class__info">
-                                        <div class="row no-gutters">
-                                            <div class="col-6">
-                                                <div class="item has-seprator">
-                                                    <span class="name">age</span>
-                                                    <span class="value">2 - 3 years</span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="item">
-                                                    <span class="name">size</span>
-                                                    <span class="value">20 seats</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                        <div class="col-md-6">                            
+                            <div class="p-l-70 p-md-l-0">
+                                <div class="section-heading section-heading-1">
+                                    <h2 class="title title-2 m-b-25 section-heading text-white">Our Curriculum</h2>                                    
+                                    <div class="section-heading__line">
+                                        <img src="images/icon/line-white.png" alt="Line 2">
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="media media-our-class-3">
-                                <div class="media__img">
-                                    <a href="classes-single.html">
-                                        <img src="images/our-class-09.jpg" alt="Sand Play Class" />
-                                    </a>
-                                    <span class="media-our-class__price">
-                                        <span class="inner">$38</span>
-                                    </span>
-                                </div>
-                                <div class="media__body">
-                                    <h3 class="media__title">
-                                        <a href="classes-single.html">Sand Play Class</a>
-                                    </h3>
-                                    <span class="date-time m-r-15">08:00 am - 05:00 pm</span>
-                                    <span class="date-time">April 29, 2020</span>
-                                    <div class="media-our-class__info">
-                                        <div class="row no-gutters">
-                                            <div class="col-6">
-                                                <div class="item has-seprator">
-                                                    <span class="name">age</span>
-                                                    <span class="value">4 - 5 years</span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="item">
-                                                    <span class="name">size</span>
-                                                    <span class="value">25 seats</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="media media-our-class-3">
-                                <div class="media__img">
-                                    <a href="classes-single.html">
-                                        <img src="images/our-class-10.jpg" alt="Painting Class" />
-                                    </a>
-                                    <span class="media-our-class__price">
-                                        <span class="inner">$36</span>
-                                    </span>
-                                </div>
-                                <div class="media__body">
-                                    <h3 class="media__title">
-                                        <a href="classes-single.html">Painting Class</a>
-                                    </h3>
-                                    <span class="date-time m-r-15">08:00 am - 05:00 pm</span>
-                                    <span class="date-time">April 29, 2020</span>
-                                    <div class="media-our-class__info">
-                                        <div class="row no-gutters">
-                                            <div class="col-6">
-                                                <div class="item has-seprator">
-                                                    <span class="name">age</span>
-                                                    <span class="value">3- 5 years</span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="item">
-                                                    <span class="name">size</span>
-                                                    <span class="value">18 seats</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="media media-our-class-3">
-                                <div class="media__img">
-                                    <a href="classes-single.html">
-                                        <img src="images/our-class-11.jpg" alt="Table/Floor Toys Class" />
-                                    </a>
-                                    <span class="media-our-class__price">
-                                        <span class="inner">$41</span>
-                                    </span>
-                                </div>
-                                <div class="media__body">
-                                    <h3 class="media__title">
-                                        <a href="classes-single.html">Table/Floor Toys Class</a>
-                                    </h3>
-                                    <span class="date-time m-r-15">08:00 am - 05:00 pm</span>
-                                    <span class="date-time">April 29, 2020</span>
-                                    <div class="media-our-class__info">
-                                        <div class="row no-gutters">
-                                            <div class="col-6">
-                                                <div class="item has-seprator">
-                                                    <span class="name">age</span>
-                                                    <span class="value">2.5 - 4 years</span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="item">
-                                                    <span class="name">size</span>
-                                                    <span class="value">22 seats</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="media media-our-class-3">
-                                <div class="media__img">
-                                    <a href="classes-single.html">
-                                        <img src="images/our-class-12.jpg" alt="Storytime Class" />
-                                    </a>
-                                    <span class="media-our-class__price">
-                                        <span class="inner">$35</span>
-                                    </span>
-                                </div>
-                                <div class="media__body">
-                                    <h3 class="media__title">
-                                        <a href="classes-single.html">Storytime Class</a>
-                                    </h3>
-                                    <span class="date-time m-r-15">08:00 am - 05:00 pm</span>
-                                    <span class="date-time">April 29, 2020</span>
-                                    <div class="media-our-class__info">
-                                        <div class="row no-gutters">
-                                            <div class="col-6">
-                                                <div class="item has-seprator">
-                                                    <span class="name">age</span>
-                                                    <span class="value">5 - 6 years</span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <div class="item">
-                                                    <span class="name">size</span>
-                                                    <span class="value">27 seats</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <p class="m-b-15 text-justify">At Happy Kids Daycare we firmly believe that the first years of children's lives constitute a crucial moment to enhance their development. And for them we start from a project-based methodology, relying on the <strong class="text-white">Reggio Emilia</strong> philosophy, multiple intelligences, positive discipline and learning based on experimentation. Everything from a playful and attractive perspective for the child where, in addition to learning, have fun and be happy. At Happy Kids we speak 90% Spanish and everyone is welcome at our nursery.</p>
+                                    
+                                <h4 class="section-heading__title text-white" style="color: #fff; margin-top: 25px;">Reggio Emilia</h4>
+
+                                <ul class="lista m-t-15">
+                                    <li>Children's learning is based on interest</li>
+                                    <li>Teachers and parents are learning partners</li>
+                                    <li>The classroom environment is a "third teacher</li>
+                                    <li>Children's learning progress is documented</li>
+                                    <li>Teachers focus on the many ways that children learn</li>
+                                </ul>                               
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- END ROOMS AND CLASS-->
 
             <!-- PROGRAM-->
-            <section class="section p-t-140 p-md-t-40 p-b-60">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-heading section-heading-1">
-                                <h2 class="section-heading__title">Our Programs</h2>
-                                <div class="section-heading__line">
-                                    <img src="images/icon/line-blue.png" alt="Line">
-                                </div>
+            <section class="section p-t-100 p-md-t-50 p-b-25" id="programs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading section-heading-1 m-b-110 m-md-b-60">
+                            <h2 class="title title-2 m-b-25 section-heading">Our Programs</h2>
+                            <div class="section-heading__line">
+                                <img src="images/icon/line-blue.png" alt="Line">
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3">
-                            <div class="box box-program">
-                                <div class="box__head">
-                                    <div class="box__head-bg">
-                                        <img src="images/icon/bg-program-01.png" alt="Background" />
-                                        <div class="box__head-icon wow fadeIn">
-                                            <img src="images/icon/program-01.png" alt="Icon" />
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="program-wrap">
+                            <div class="program__img">
+                                <img src="images/program-01.png" alt="Program 1">
+                            </div>
+                            <div class="program-col">
+                                <div class="box box-program-2 icon-right">                    
+                                    <div class="box__head">
+                                        <div class="box__head-bg" style="width:10vh;">
                                         </div>
                                     </div>
+                                    <div class="box__body">                                        
+                                        <h5 style="color: #ff97a4;">Infants - Walkers</h5>
+                                    </div>
                                 </div>
-                                <div class="box__body">
-                                    <h3 class="box__title title title--sm title--black">
-                                        <a href="#">Art &amp; Yoga</a>
-                                    </h3>
+                                <div class="box box-program-2 icon-right">
+                                    <div class="box__head">
+                                        <div class="box__head-bg" style="width:10vh;">
+                                            <img src="images/icon/bg-program-02.png" alt="Background">
+                                            <div class="box__head-icon">
+                                                <img src="images/icon/program-02.png" alt="Icon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box__body">
+                                        <!--<h3 class="title title--sm title--black box__title">
+                                            <a href="#">Art &amp; Yoga</a>
+                                        </h3>-->
+                                        <p>In happy Kids Daycare we offer various activities, learning through play since children can learn through observation and thus develop their creativity</p>
+                                    </div>
+                                </div>
+                                <div class="box box-program-2 icon-right">
+                                    <div class="box__head">
+                                        <div class="box__head-bg" style="width:10vh;">
+                                            <img src="images/icon/bg-program-01.png" alt="Background">
+                                            <div class="box__head-icon">
+                                                <img src="images/icon/program-01.png" alt="Icon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box__body">
+                                        <!--<h3 class="title title--sm title--black box__title">
+                                            <a href="#">Healthy Meals</a>
+                                        </h3>-->
+                                        <p>Practical and interactive activities according to their ages, musical exploration, drawings and paintings</p>
+                                    </div>
+                                </div>
+                                <div class="box box-program-2 icon-right">
+                                    <div class="box__head">
+                                        <div class="box__head-bg" style="width:10vh;">
+                                            <img src="images/icon/bg-program-03.png" alt="Background">
+                                            <div class="box__head-icon">
+                                                <img src="images/icon/program-03.png" alt="Icon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box__body">
+                                        <!--<h3 class="title title--sm title--black box__title">
+                                            <a href="#">Healthy Meals</a>
+                                        </h3>-->
+                                        <p>Games and outdoor exploration, activities to stimulate motor and cognitive development</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="box box-program">
-                                <div class="box__head">
-                                    <div class="box__head-bg">
-                                        <img src="images/icon/bg-program-02.png" alt="Background" />
-                                        <div class="box__head-icon wow fadeIn">
-                                            <img src="images/icon/program-02.png" alt="Icon" />
+                            <div class="program-col">
+                                <div class="box box-program-2">
+                                    <div class="box__head">
+                                        <div class="box__head-bg" style="width:10vh;">
                                         </div>
                                     </div>
-                                </div>
-                                <div class="box__body">
-                                    <h3 class="box__title title title--sm title--black">
-                                        <a href="#">Healthy Meals</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="box box-program">
-                                <div class="box__head">
-                                    <div class="box__head-bg">
-                                        <img src="images/icon/bg-program-03.png" alt="Background" />
-                                        <div class="box__head-icon wow fadeIn">
-                                            <img src="images/icon/program-03.png" alt="Icon" />
-                                        </div>
+                                    <div class="box__body">                                        
+                                        <h5 style="color: #ff97a4;">Preschool - School</h5>
                                     </div>
                                 </div>
-                                <div class="box__body">
-                                    <h3 class="box__title title title--sm title--black">
-                                        <a href="#">External Dynamic</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="box box-program">
-                                <div class="box__head">
-                                    <div class="box__head-bg">
-                                        <img src="images/icon/bg-program-04.png" alt="Background" />
-                                        <div class="box__head-icon wow fadeIn">
-                                            <img src="images/icon/program-04.png" alt="Icon" />
+                                <div class="box box-program-2">
+                                    <div class="box__head">
+                                        <div class="box__head-bg" style="width:10vh;">
+                                            <img src="images/icon/bg-program-08.png" alt="Background">
+                                            <div class="box__head-icon">
+                                                <img src="images/icon/program-04.png" alt="Icon">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="box__body">
-                                    <h3 class="box__title title title--sm title--black">
-                                        <a href="#">Music &amp; Singing</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="box box-program">
-                                <div class="box__head">
-                                    <div class="box__head-bg">
-                                        <img src="images/icon/bg-program-05.png" alt="Background" />
-                                        <div class="box__head-icon wow fadeIn">
-                                            <img src="images/icon/program-05.png" alt="Icon" />
-                                        </div>
+                                    <div class="box__body">                                    
+                                        <p>In our program we work with a creative curriculum for preschool, which is based on how children develop and learn</p>
                                     </div>
                                 </div>
-                                <div class="box__body">
-                                    <h3 class="box__title title title--sm title--black">
-                                        <a href="#">Table/Floor Toys</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="box box-program">
-                                <div class="box__head">
-                                    <div class="box__head-bg">
-                                        <img src="images/icon/bg-program-06.png" alt="Background" />
-                                        <div class="box__head-icon wow fadeIn">
-                                            <img src="images/icon/program-06.png" alt="Icon" />
+                                <div class="box box-program-2">
+                                    <div class="box__head">
+                                        <div class="box__head-bg" style="width:10vh;">
+                                            <img src="images/icon/bg-program-04.png" alt="Background">
+                                            <div class="box__head-icon">
+                                                <img src="images/icon/program-08.png" alt="Icon">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="box__body">
-                                    <h3 class="box__title title title--sm title--black">
-                                        <a href="#">Storytime</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="box box-program">
-                                <div class="box__head">
-                                    <div class="box__head-bg">
-                                        <img src="images/icon/bg-program-07.png" alt="Background" />
-                                        <div class="box__head-icon wow fadeIn">
-                                            <img src="images/icon/program-07.png" alt="Icon" />
-                                        </div>
+                                    <div class="box__body">
+                                        <p>We teach them numbers, letters, colors, geometric shapes, to write their name. Offer children an environment of positive affection and the trust that will make them grow safe</p>
                                     </div>
                                 </div>
-                                <div class="box__body">
-                                    <h3 class="box__title title title--sm title--black">
-                                        <a href="#">Water Play</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="box box-program">
-                                <div class="box__head">
-                                    <div class="box__head-bg">
-                                        <img src="images/icon/bg-program-08.png" alt="Background" />
-                                        <div class="box__head-icon wow fadeIn">
-                                            <img src="images/icon/program-08.png" alt="Icon" />
+                                <div class="box box-program-2">
+                                    <div class="box__head">
+                                        <div class="box__head-bg" style="width:10vh;">
+                                            <img src="images/icon/bg-program-07.png" alt="Background">
+                                            <div class="box__head-icon">
+                                                <img src="images/icon/program-06.png" alt="Icon">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="box__body">
-                                    <h3 class="box__title title title--sm title--black">
-                                        <a href="#">Picture Information</a>
-                                    </h3>
+                                    <div class="box__body">                            
+                                        <p>Prioritize play in all activities for fine and gross motor development, recognition of self with oneself and with others</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
             <!-- END PROGRAM-->
 
             <!-- TESTI-->
             <!--<section class="section bg-pattern bg-pattern-2 p-t-125 p-md-t-50 p-b-90 p-md-b-50">-->
-            <section class="section bg-success p-t-125 p-md-t-50 p-b-90 p-md-b-50">
-                <div class="container">
-                    <div class="slick-testi-1">
-                        <div class="slick__wrap-content js-slick-wrapper" data-slick-xs="1" data-slick-sm="1" data-slick-md="2" data-slick-lg="2" data-slick-xl="2" data-slick-dots="true" data-slick-customnav="true" data-slick-autoplay="false">
-                            <div class="slick__content js-slick-content">
-                                <div class="slick__item">
-                                    <div class="media media-testi-1">
-                                        <div class="media__body">
-                                            <div class="media__body-inner">
-                                                <blockquote class="media__quote">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain
-                                                    and trouble that are bound.</blockquote>
-                                            </div>
-                                            <div class="qoute-before"></div>
-                                            <div class="qoute-after"></div>
-                                        </div>
-                                        <div class="media__info-wrap">
-                                            <div class="media__img img-circle">
-                                                <img src="images/testi-01.jpg" alt="Pamela Carroll" />
-                                            </div>
-                                            <div class="media__info">
-                                                <h5 class="title title--sbold">Pamela Carroll</h5>
-                                                <span class="job">- Designer -</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="slick__item">
-                                    <div class="media media-testi-1">
-                                        <div class="media__body">
-                                            <div class="media__body-inner">
-                                                <blockquote class="media__quote">These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be
-                                                    welcomed and every pain avoided.</blockquote>
-                                            </div>
-                                            <div class="qoute-before"></div>
-                                            <div class="qoute-after"></div>
-                                        </div>
-                                        <div class="media__info-wrap">
-                                            <div class="media__img img-circle">
-                                                <img src="images/testi-02.jpg" alt="Pamela Carroll" />
-                                            </div>
-                                            <div class="media__info">
-                                                <h5 class="title title--sbold">Pamela Carroll</h5>
-                                                <span class="job">- Photography -</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="slick__item">
-                                    <div class="media media-testi-1">
-                                        <div class="media__body">
-                                            <div class="media__body-inner">
-                                                <blockquote class="media__quote">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam
-                                                    et aut officiis</blockquote>
-                                            </div>
-                                            <div class="qoute-before"></div>
-                                            <div class="qoute-after"></div>
-                                        </div>
-                                        <div class="media__info-wrap">
-                                            <div class="media__img img-circle">
-                                                <img src="images/testi-03.jpg" alt="Adam Crawford" />
-                                            </div>
-                                            <div class="media__info">
-                                                <h5 class="title title--sbold">Adam Crawford</h5>
-                                                <span class="job">- Designer -</span>
-                                            </div>
-                                        </div>
+            <section class="section p-t-125 bg-pink p-md-t-50 p-b-90 p-md-b-50" id="staff">
+                <div class="bg-cloud-4">
+                    <img src="images/icon/bg-cloud-04.png" alt="Cloud">
+                </div>
+                <div class="container">                    
+                    <div class="row no-gutters">
+                        <div class="col-md-5 col-lg-4 m-t-70">
+                            <div class="media">
+                                <div class="media__head">
+                                    <div class="media__img">
+                                        <img src="images/teacher.jpg" alt="Teacher" style="border: solid 20px #fff;">
                                     </div>
                                 </div>
                             </div>
-                            <div class="slick__dots dots-style2"></div>
+                        </div>
+                        <div class="col-md-7 col-lg-8">
+                            <div class="p-l-55 p-sm-l-0">
+                                <h2 class="title title-2 m-b-10 section-heading text-white">Carmen Figueroa</h2>
+                                <h5 class="m-b-20 text-white">Founder and childcare professional</h5>
+                                <p class="m-b-20 text-justify">
+                                    I am of Cuban origin, I speak Spanish and I have English as my second language. Fortunately I have a three-year-old boy, his name is Charlie, who is part of this program. I have a degree in Accounting in my country. I have five years of experience in childcare here in Oregon, in these five years of experience I had the opportunity to work three years with infants and toddlers, the remaining two years I focus on the area of preschool. I have a certificate in child care teaching, professionally I have been preparing for several courses that give me more knowledge about early childhood education
+                                </p>                                                            
+                                <p class="m-b-20 text-justify">
+                                    I believe that each child is a unique individual who needs the care and safe environment in which they can grow and mature emotionally, intellectually, physically, and socially. It is my desire as an educator to help students fulfill their full potential in these areas by providing a safe environment, supporting risk taking, while inviting common reflection
+                                </p>
+                                <p class="m-b-80 text-justify">
+                                    As for me, teaching offers an opportunity for continuous learning and growth. One of my hopes as an educator is to instill a love of learning in my students, as I share my own passion for learning with them
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -762,86 +489,252 @@
             <!-- END TESTI-->
 
             <!-- EVENT-->
-            <section class="section p-t-140 p-md-t-50 p-b-70 p-md-b-50">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-heading section-heading-1">
-                                <h2 class="section-heading__title">Upcoming Events</h2>
-                                <div class="section-heading__line">
-                                    <img src="images/icon/line-blue.png" alt="Line">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="p-r-10 p-md-r-0">
-                                <div class="media media-event-1" style="background: url('images/event-01.jpg');">
-                                    <div class="media__body">
-                                        <div class="media__date">
-                                            <div class="media__date-inner">
-                                                <span class="day">18</span>
-                                                <span class="month">June</span>
-                                            </div>
+            <section class="section p-t-15 p-md-t-15 p-b-15 p-md-b-15" id="gallery">
+                <div class="container-fluid">
+                    <div class="row no-gutters row--no-padding">
+                        <div class="col-lg-12">
+                            <div class="row no-gutters">
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
                                         </div>
-                                        <h4 class="title title--md title--black">
-                                            <a href="event.html">Baby explores the wondrous</a>
-                                        </h4>
-                                        <span class="time-map m-r-25 m-md-r-0">
-                                            <i class="lnr lnr-clock"></i>
-                                            <span>8am - 10am</span>
-                                        </span>
-                                        <span class="time-map">
-                                            <i class="lnr lnr-map"></i>
-                                            <span>No 40 Baria Sreet 133/2</span>
-                                        </span>
-                                        <p class="media__text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime</p>
-                                        <a class="link-learn-more" href="event.html">learn more
-                                            <i class="zmdi zmdi-chevron-right"></i>
-                                            <i class="zmdi zmdi-chevron-right"></i>
-                                        </a>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-1.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-1.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
+                                        </div>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-3.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-3.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
+                                        </div>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-5.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-5.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
+                                        </div>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-6.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-6.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
+                                        </div>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-13.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-13.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
+                                        </div>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-18.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-18.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-l-10 p-md-l-0">
-                                <div class="media media-event-1" style="background: url('images/event-02.jpg');">
-                                    <div class="media__body">
-                                        <div class="media__date">
-                                            <div class="media__date-inner">
-                                                <span class="day">20</span>
-                                                <span class="month">June</span>
-                                            </div>
+                        </div>  
+                        <div class="col-lg-12">
+                            <div class="row no-gutters">
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
                                         </div>
-                                        <h4 class="title title--md title--black">
-                                            <a href="event.html">Try the kitchen with the baby</a>
-                                        </h4>
-                                        <span class="time-map m-r-25 m-md-r-0">
-                                            <i class="lnr lnr-clock"></i>
-                                            <span>8am - 10am</span>
-                                        </span>
-                                        <span class="time-map">
-                                            <i class="lnr lnr-map"></i>
-                                            <span>No 40 Baria Sreet 133/2</span>
-                                        </span>
-                                        <p class="media__text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet</p>
-                                        <a class="link-learn-more" href="event.html">learn more
-                                            <i class="zmdi zmdi-chevron-right"></i>
-                                            <i class="zmdi zmdi-chevron-right"></i>
-                                        </a>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-7.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-7.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
+                                        </div>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-8.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-8.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
+                                        </div>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-9.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-9.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
+                                        </div>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-11.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-11.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
+                                        </div>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-23.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-23.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="media media-gradu">
+                                        <div class="media__overlay">
+                                            <div class="media__overlay-inner"></div>
+                                        </div>
+                                        <div class="media__img">
+                                            <img src="images/daycare/image-15.jpg" alt="Gradu 1">
+                                        </div>
+                                        <div class="media__body">
+                                            <div class="media__tool">
+                                                <a class="au-icon" href="images/daycare/image-15.jpg" data-lightbox="gradu">
+                                                    <i class="fas fa-expand-arrows-alt"></i>
+                                                </a>                                                
+                                            </div>
+                                            <span class="date-time">Title</span>
+                                            <span class="date-time">Date</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>                   
                     </div>
                 </div>
             </section>
             <!-- END EVENT-->
 
             <!-- CTA-->
-            <section class="section cta-1 bg-pink p-t-80 p-b-55">
+            <section class="section cta-1 bg-pink p-t-80 p-b-100">
                 <div class="container">
                     <div class="cta-wrap">
                         <div class="cta__img wow fadeInUp" data-wow-delay=".2s">
@@ -849,15 +742,12 @@
                         </div>
                         <div class="row">
                             <div class="col-md-7 offset-md-5">
-                                <div class="wrap--w625">
+                                <div class="wrap--w625 m-t-50">
                                     <div class="cta">
                                         <div class="cta__body">
-                                            <h2 class="title cta__title">How to Enroll Your Child to a Class?</h2>
-                                            <p class="cta__text">Interested in good preschool education for your child? Our kindergarten is the right decision!</p>
-                                            <a class="au-btn au-btn--blue" href="#">find our more
-                                                <i class="zmdi zmdi-chevron-right"></i>
-                                                <i class="zmdi zmdi-chevron-right"></i>
-                                            </a>
+                                            <h5 class="text-white">How to Enroll Your Child to a Class?</h5>
+                                            <p class="cta__text">Interested in good preschool education for your child?</p>
+                                            <h2 class="title cta__title">Our daycare is the right decision!</h2>                               
                                         </div>
                                     </div>
                                 </div>
@@ -869,41 +759,35 @@
             <!-- END CTA-->
 
             <!-- FOOTER-->
-            <footer class="footer">
-                <div class="container">
-                    <div class="col-md-12">
-                        <div class="footer-wrap">
-                            <div class="footer__logo">
-                                <a href="#">
-                                    <img src="images/icon/logo.png" alt="Jobby" />
-                                </a>
+            <footer class="footer" style="background-color: #00000005;" id="contact">
+                <div class="section-row contact-info-wrap">
+                    <div class="contact-info-col" style="height: 545px;">
+                        <div style="height: 545px;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.9699132562428!2d-122.477164284441!3d45.510684279101554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a20b201daa0f%3A0xc594ce47f5260386!2s18227%20SE%20Mill%20St%2C%20Portland%2C%20OR%2097233%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1592077492709!5m2!1ses-419!2sar" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                          
+                        </div>
+                    </div>
+                    <div class="contact-info-col js-matchHeight" style="height: 545px;">
+                        <div class="contact-info-inner p-t-110 p-b-80">
+                            <div class="wrap--w600">
+                                <div class="contact-info-content text-justify">
+                                    <div class="section-heading section-heading-1 section-heading-1--small text-left m-b-25">
+                                        <h2 class="title title-2 m-b-25 section-heading">Contact Info</h2>                                        
+                                        <div class="section-heading__line">
+                                            <img src="images/icon/line-blue.png" alt="Line">
+                                        </div>
+                                    </div>
+                                    <h5>Contact me via e-mail, telephone or networks</h5>
+                                    <h2 class="title title-2 m-b-25 m-t-20" style="font-size: 1.4rem;">I wish I could help you!!</h2> 
+
+                                    <ul class="list-unstyled list-contact m-t-30" style="font-size: 1.1rem;">
+                                        <li>
+                                            <span><i class="fa fa-map"></i></span> 18227 SE Mill St, Portland, OR 97233, EE. UU.</li>
+                                        <li>
+                                            <span class="fab fa-whatsapp"></span> +1 (503) 766-9802</li>                                
+                                            <span class="fa fa-calendar"></span> Mon - Sat: 08:00 am - 05:00 pm</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <ul class="list-unstyled list-inline footer__list">
-                                <li class="list-inline-item">
-                                    <a href="#">about us</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">contact us</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">classes</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">teacher</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">blog</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">shop</a>
-                                </li>
-                            </ul>
-                            <form class="form form--icon form__footer" method="post">
-                                <input type="email" name="email-footer" placeholder="Your e-mail here..." />
-                                <button class="btn-submit-1" type="submit">
-                                    <img src="images/icon/send.png" alt="send" />
-                                </button>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -916,21 +800,21 @@
                                 <ul class="list-unstyled list-inline list-social list-social-2">
                                     <li class="list-inline-item">
                                         <a class="ic-fb" href="#">
-                                            <i class="zmdi zmdi-facebook-box"></i>
+                                            <i class="fab fa-facebook-square"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
                                         <a class="ic-twi" href="#">
-                                            <i class="zmdi zmdi-twitter"></i>
+                                            <i class="fab fa-twitter"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
                                         <a class="ic-insta" href="#">
-                                            <i class="zmdi zmdi-instagram"></i>
+                                            <i class="fab fa-instagram"></i>
                                         </a>
                                     </li>
                                 </ul>
-                                <span class="copyright__text">© 2019 JOBBY. Get The Theme</span>
+                                <span class="copyright__text">© 2020 Sergio Cova</span>
                             </div>
                         </div>
                     </div>
@@ -938,24 +822,8 @@
             </section>
             <!-- END FOOTER-->
         </main>
-        <!-- END MAIN-->
-
-        <div class="modal fade modal-video" tabindex="-1" role="dialog" aria-hidden="true" id="modal-video">
-            <div class="modal-dialog modal-video__dialog" role="document" data-dismiss="modal">
-                <div class="modal-video__close" data-dismiss="modal" aria-label="Close">×</div>
-                <div class="modal-video__wrapper">
-                    <div class="modal-video__holder">
-                        <img src="images/video-01.jpg" alt="IMG" />
-                    </div>
-                    <div class="modal-video__video">
-                        <iframe src="https://www.youtube.com/embed/qwzDYq8x1hs?ecver=1"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- END MAIN-->        
     </div>
-
-
 
     <!-- BACK TO TOP-->
     <div id="to-top">
